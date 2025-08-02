@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutriment Diet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #2c3e50;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .about, .contact {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ecf0f1;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nutriment Diet</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Premium Dry Fruits for a Healthier You</h2>
+  </div>
+
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1604908177522-402b34e6f1cd" alt="Almonds">
+        <h3>Almonds</h3>
+        <p>₹500 / 500g</p>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Almonds">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1606755962773-6153c0a65e16" alt="Cashews">
+        <h3>Cashews</h3>
+        <p>₹550 / 500g</p>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Cashews">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1576751756343-d2c0933fb9b5" alt="Raisins">
+        <h3>Raisins</h3>
+        <p>₹300 / 500g</p>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20Raisins">Order on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="about">
+      <h2>About Nutriment Diet</h2>
+      <p>
+        At Nutriment Diet, we are committed to bringing you the finest quality dry fruits sourced directly from trusted farmers and suppliers. Our products are hygienically packed and delivered fresh to your doorstep.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="contact">
+      <h2>Contact & Order</h2>
+      <p>Email: contact@nutrimentdiet.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+      <p><a class="btn" href="https://wa.me/91XXXXXXXXXX">Order on WhatsApp</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Nutriment Diet. All rights reserved.
+  </footer>
+</body>
+</html>
